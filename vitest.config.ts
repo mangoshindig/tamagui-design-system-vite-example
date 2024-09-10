@@ -11,7 +11,7 @@ export default defineConfig({
     react(),
     tsconfigPaths(),
     tamaguiPlugin({
-      components: ["@tamagui/core"],
+      components: ["tamagui"],
       config: "src/themes/tamagui.config.ts",
     }),
   ],

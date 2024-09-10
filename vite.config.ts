@@ -78,7 +78,7 @@ export default defineConfig({
         "react",
         "react/jsx-runtime",
         "react-dom",
-        "@tamagui/core",
+        "tamagui",
         "@tamagui/vite-plugin",
       ],
       input: computeAllSrcFiles(),

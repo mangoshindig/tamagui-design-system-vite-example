@@ -6,7 +6,7 @@ import {
   RenderResult,
 } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import { TamaguiProvider } from "@tamagui/core";
+import { TamaguiProvider } from "tamagui";
 import { ReactElement } from "react";
 import config from "../themes/tamagui.config";
 

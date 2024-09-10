@@ -1,4 +1,4 @@
-import { TamaguiProvider, TamaguiProviderProps, Theme } from "@tamagui/core";
+import { TamaguiProvider, TamaguiProviderProps, Theme } from "tamagui";
 import { PropsWithChildren } from "react";
 import appConfig from "./tamagui.config";
 

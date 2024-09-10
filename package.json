@@ -1,7 +1,10 @@
 {
-  "name": "library",
+  "name": "caz-design-system-test",
   "private": false,
-  "version": "0.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.0.12",
   "source": "./src/index.ts",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -24,8 +27,8 @@
     "version": "changeset version"
   },
   "peerDependencies": {
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.2.25",
@@ -58,8 +61,8 @@
     "expo-linear-gradient": "^12.7.2",
     "glob": "10.3.10",
     "jsdom": "^24.0.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-native": "^0.73.6",
     "storybook": "^8.0.4",
     "typescript": "5.2.2",
@@ -69,6 +72,8 @@
     "vitest": "^1.4.0"
   },
   "dependencies": {
-    "@changesets/cli": "^2.27.1"
+    "@changesets/cli": "^2.27.1",
+    "@tamagui/button": "^1.110.3",
+    "tamagui": "^1.110.3"
   }
 }

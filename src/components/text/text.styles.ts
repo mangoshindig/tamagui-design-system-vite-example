@@ -1,4 +1,4 @@
-import { Text, styled } from "@tamagui/core";
+import { Text, styled } from "tamagui";
 
 export const StyledText = styled(Text, {
   color: "$primary",

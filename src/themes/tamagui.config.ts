@@ -1,4 +1,5 @@
-import { createTamagui } from "@tamagui/core";
+import { createTamagui } from "tamagui";
+
 
 const config = createTamagui({
   fonts: {},
@@ -22,5 +23,8 @@ const config = createTamagui({
     zIndex: {},
   },
 });
+
+
+console.log('tamaguiConfig', config)
 
 export default config;
